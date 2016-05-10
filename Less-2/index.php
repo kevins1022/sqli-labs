@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Less-2 **Error Based- Intiger**</title>
+<title>Less-2 **基于错误-数字类型的注入**</title>
 </head>
 
 <body bgcolor="#000000">
@@ -10,7 +10,7 @@
 
 
 
-<div style=" margin-top:60px;color:#FFF; font-size:23px; text-align:center">Welcome&nbsp;&nbsp;&nbsp;<font color="#FF0000"> Dhakkan </font><br>
+<div style=" margin-top:60px;color:#FFF; font-size:23px; text-align:center">欢迎&nbsp;&nbsp;&nbsp;<font color="#FF0000"> Dhakkan </font><br>
 <font size="3" color="#FFFF00">
 
 
@@ -50,7 +50,7 @@ $row = mysql_fetch_array($result);
 }
 	else
 		{ 	
-		echo "Please input the ID as parameter with numeric value";
+		echo "请输入数字型的id参数";
 		}
 
 ?>
