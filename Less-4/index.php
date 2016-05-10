@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Less-4 Error Based- DoubleQuotes String</title>
+<title>Less-4 基于错误-双引号-字符型注入</title>
 </head>
 
 <body bgcolor="#000000">
-<div style=" margin-top:60px;color:#FFF; font-size:23px; text-align:center">Welcome&nbsp;&nbsp;&nbsp;<font color="#FF0000"> Dhakkan </font><br>
+<div style=" margin-top:60px;color:#FFF; font-size:23px; text-align:center">欢迎&nbsp;&nbsp;&nbsp;<font color="#FF0000"> Dhakkan </font><br>
 <font size="3" color="#FFFF00">
 
 
@@ -45,7 +45,7 @@ $row = mysql_fetch_array($result);
 	echo "</font>";  
 	}
 }
-	else { echo "Please input the ID as parameter with numeric value";}
+	else { echo "请输入数字型的id参数";}
 
 ?>
 
