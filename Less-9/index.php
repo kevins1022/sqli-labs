@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Less-9 Blind- Time based- Single Quotes- String</title>
+<title>Less-9 基于时间盲注-单引号-字符型</title>
 </head>
 
 <body bgcolor="#000000">
-<div style=" margin-top:60px;color:#FFF; font-size:23px; text-align:center">Welcome&nbsp;&nbsp;&nbsp;<font color="#FF0000"> Dhakkan </font><br>
+<div style=" margin-top:60px;color:#FFF; font-size:23px; text-align:center">欢迎&nbsp;&nbsp;&nbsp;<font color="#FF0000"> Dhakkan </font><br>
 <font size="3" color="#FFFF00">
 
 
@@ -34,7 +34,7 @@ $row = mysql_fetch_array($result);
 	if($row)
 	{
   	echo '<font size="5" color="#FFFF00">';	
-  	echo 'You are in...........';
+  	echo '登录成功...........';
   	echo "<br>";
     	echo "</font>";
   	}
@@ -42,7 +42,7 @@ $row = mysql_fetch_array($result);
 	{
 	
 	echo '<font size="5" color="#FFFF00">';
-	echo 'You are in...........';
+	echo '登录成功...........';
 	//print_r(mysql_error());
 	//echo "You have an error in your SQL syntax";
 	echo "</br></font>";	
@@ -50,7 +50,7 @@ $row = mysql_fetch_array($result);
 	
 	}
 }
-	else { echo "Please input the ID as parameter with numeric value";}
+	else { echo "请输入数字型的id参数";}
 
 ?>
 </font> </div></br></br></br><center>
