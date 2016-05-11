@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Less-8 Blind- Boolian- Single Quotes- String</title>
+<title>Less-8 布尔盲注-单引号-字符串型</title>
 </head>
 
 <body bgcolor="#000000">
@@ -33,7 +33,7 @@ $row = mysql_fetch_array($result);
 	if($row)
 	{
   	echo '<font size="5" color="#FFFF00">';	
-  	echo 'You are in...........';
+  	echo '登录成功...........';
   	echo "<br>";
     	echo "</font>";
   	}
@@ -49,7 +49,7 @@ $row = mysql_fetch_array($result);
 	
 	}
 }
-	else { echo "Please input the ID as parameter with numeric value";}
+	else { echo "请输入数字型的id参数";}
 
 ?>
 
