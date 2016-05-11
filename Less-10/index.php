@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Less-10 Blind- Time based- Double Quotes- String</title>
+<title>Less-10 基于时间的盲注-双引号-字符型</title>
 </head>
 
 <body bgcolor="#000000">
@@ -34,7 +34,7 @@ $row = mysql_fetch_array($result);
 	if($row)
 	{
   	echo '<font size="5" color="#FFFF00">';	
-  	echo 'You are in...........';
+  	echo '登录成功...........';
   	echo "<br>";
     	echo "</font>";
   	}
@@ -42,7 +42,7 @@ $row = mysql_fetch_array($result);
 	{
 	
 	echo '<font size="5" color="#FFFF00">';
-	echo 'You are in...........';
+	echo '登录成功...........';
 	//print_r(mysql_error());
 	//echo "You have an error in your SQL syntax";
 	echo "</br></font>";	
@@ -50,7 +50,7 @@ $row = mysql_fetch_array($result);
 	
 	}
 }
-	else { echo "Please input the ID as parameter with numeric value";}
+	else { echo "请输入数字型的id参数";}
 
 ?>
 </font> </div></br></br></br><center>
