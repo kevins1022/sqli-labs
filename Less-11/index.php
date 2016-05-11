@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Less-11- Error Based- String</title>
+	<title>Less-11- 基于错误-字符型注入(POST)</title>
 </head>
 
 <body bgcolor="#000000">
-<div style=" margin-top:20px;color:#FFF; font-size:24px; text-align:center"> Welcome&nbsp;&nbsp;<font color="#FF0000"> Dhakkan </font><br></div>
+<div style=" margin-top:20px;color:#FFF; font-size:24px; text-align:center">欢迎&nbsp;&nbsp;<font color="#FF0000"> Dhakkan </font><br></div>
 
 <div  align="center" style="margin:40px 0px 0px 520px;border:20px; background-color:#0CF; text-align:center; width:400px; height:150px;">
 
