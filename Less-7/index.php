@@ -2,17 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Less-7 Dump into Outfile</title>
+<title>Less-7 写入外部文件(Dump into Outfile)</title>
 
 </head>
 
 <body bgcolor="#000000">
 
-<div style=" margin-top:60px;color:#FFF; font-size:23px; text-align:center">Welcome&nbsp;&nbsp;&nbsp;<font color="#FF0000"> Dhakkan </font><br>
+<div style=" margin-top:60px;color:#FFF; font-size:23px; text-align:center">欢迎&nbsp;&nbsp;&nbsp;<font color="#FF0000"> Dhakkan </font><br>
 <font size="3" color="#FFFF00">
 
 
 <?php
+echo "当前文件路径".dirname(__FILE__);
 //including the Mysql connect parameters.
 include("../sql-connections/sql-connect.php");
 error_reporting(0);
@@ -29,13 +30,14 @@ fclose($fp);
 
 
 $sql="SELECT * FROM users WHERE id=(('$id')) LIMIT 0,1";
+// var_dump($sql);
 $result=mysql_query($sql);
 $row = mysql_fetch_array($result);
 
 	if($row)
 	{
   	echo '<font color= "#FFFF00">';	
-  	echo 'You are in.... Use outfile......';
+  	echo '登录成功.... Use outfile......';
   	echo "<br>";
   	echo "</font>";
   	}
@@ -47,7 +49,7 @@ $row = mysql_fetch_array($result);
 	echo "</font>";  
 	}
 }
-	else { echo "Please input the ID as parameter with numeric value";}
+	else { echo "请输入数字型的id参数";}
 
 ?>
 </font> </div></br></br></br><center>

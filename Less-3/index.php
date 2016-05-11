@@ -16,7 +16,7 @@
 //including the Mysql connect parameters.
 include("../sql-connections/sql-connect.php");
 error_reporting(0);
-//r ''3'') LIMIT 0,1' at line 1
+//r '   '3'') LIMIT 0,1      ' at line 1
 // take the variables
 if(isset($_GET['id']))
 {
