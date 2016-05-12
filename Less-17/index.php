@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Less-17 Update Query- Error based - String</title>
+<title>Less-17数据库更新语句基于错误的字符型注入</title>
 </head>
 
 <body bgcolor="#000000">
 
-<div style=" margin-top:20px;color:#FFF; font-size:24px; text-align:center"><font color="#FFFF00"> [PASSWORD RESET] </br></font>&nbsp;&nbsp;<font color="#FF0000"> Dhakkan </font><br></div>
+<div style=" margin-top:20px;color:#FFF; font-size:24px; text-align:center"><font color="#FFFF00"> [重置密码] </br></font>&nbsp;&nbsp;<font color="#FF0000"> Dhakkan </font><br></div>
 
 <div  align="center" style="margin:20px 0px 0px 520px;border:20px; background-color:#0CF; text-align:center; width:400px; height:150px;">
 

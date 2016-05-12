@@ -1,0 +1,30 @@
+User Name:'admin11'
+New Password:admin888
+User Name:'Dumb'
+New Password:dump123
+User Name:'Dumb\''
+New Password:admin888
+User Name:'Dumb'
+New Password:admin'
+User Name:'Dumb'
+New Password:admin888
+User Name:'Dumb'
+New Password:admin888'
+User Name:'Dumb'
+New Password:admin888 and 1=1--+
+User Name:'Dumb'
+New Password:admin888 and 1=2--+
+User Name:'Dumb'
+New Password:admin888' and 1=1--+
+User Name:'Dumb'
+New Password:admin888' and 1=1-- 
+User Name:'Dumb'
+New Password:admin888' and 1=2-- 
+User Name:'Dumb'
+New Password:admin888' and 1=2-- 
+User Name:'Dumb'
+New Password:admin888
+User Name:'Dumb'
+New Password:admin888'--+
+User Name:'Dumb'
+New Password:admin888'#
