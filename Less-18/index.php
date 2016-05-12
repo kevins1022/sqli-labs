@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Less-18 Header Injection- Error Based- string</title>
+<title>Less-18 基于错误的header头信息注入--字符型</title>
 </head>
 
 <body bgcolor="#000000">
 
-<div style=" margin-top:20px;color:#FFF; font-size:24px; text-align:center"> Welcome&nbsp;&nbsp;&nbsp;<font color="#FF0000"> Dhakkan </font><br></div>
+<div style=" margin-top:20px;color:#FFF; font-size:24px; text-align:center">欢迎&nbsp;&nbsp;&nbsp;<font color="#FF0000"> Dhakkan </font><br></div>
 <div  align="center" style="margin:20px 0px 0px 510px;border:20px; background-color:#0CF; text-align:center;width:400px; height:150px;">
 <div style="padding-top:10px; font-size:15px;">
  
