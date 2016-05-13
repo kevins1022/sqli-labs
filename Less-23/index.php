@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Less-23 **Error Based- no comments**</title>
+<title>Less-23 **基于错误的注入-没有注释**</title>
 </head>
 
 <body bgcolor="#000000">
-<div style=" margin-top:70px;color:#FFF; font-size:23px; text-align:center">Welcome&nbsp;&nbsp;&nbsp;<font color="#FF0000"> Dhakkan </font><br>
+<div style=" margin-top:70px;color:#FFF; font-size:23px; text-align:center">欢迎&nbsp;&nbsp;&nbsp;<font color="#FF0000"> Dhakkan </font><br>
 <font size="3" color="#FFFF00">
 
 
@@ -34,6 +34,7 @@ fclose($fp);
 
 
 $sql="SELECT * FROM users WHERE id='$id' LIMIT 0,1";
+// echo $sql;
 $result=mysql_query($sql);
 $row = mysql_fetch_array($result);
 

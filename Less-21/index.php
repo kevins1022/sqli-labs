@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<title>Less-21 Cookie Injection- Error Based- complex - string</title>
+<title>Less-21 Cookie注入-基于错误的-复杂型（base64_encode）-字符型</title>
 </head>
 
 <body bgcolor="#000000">

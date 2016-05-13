@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<title>Less-22 Cookie Injection- Error Based- Double Quotes - string</title>
+<title>Less-22 Cookie注入-基于错误-双引号-字符型</title>
 </head>
 
 <body bgcolor="#000000">

